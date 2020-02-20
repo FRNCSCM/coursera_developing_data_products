@@ -1,6 +1,8 @@
-# Define server logic required to draw a histogram ----
+# Define server logic required to draw a scatterplot
 library(shiny)
 library(plotly)
+
+# Run this script in RStudio to run application
 server <- function(input, output) {
   
   # Return the requested dataset
@@ -13,16 +15,17 @@ server <- function(input, output) {
     summary(dataset)
   })
   
-  
+  # Get input for X variable
   xcol <- reactive({
     mtcars[,input$x]
   })
   
+  # Get input for X variable
   ycol <- reactive({
     mtcars[,input$y]
   })
   
-  
+  # Generate plotly plot
   output$plot <- renderPlotly({
       plot_ly(
       data(),
