@@ -22,6 +22,8 @@ It is an R Presentation generated with the R package slidify.
 You can find the app to in this pitch here:
 https://github.com/FRNCSCM/coursera_developing_data_products/tree/master/App
 
+You can find this presentation also here:
+https://frncscm.github.io/coursera_data_product/Presentation.html#(1)
 
 ## Application Overview
 

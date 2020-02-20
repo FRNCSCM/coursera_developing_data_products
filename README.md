@@ -3,6 +3,11 @@
 ##### author: "Francesco"
 ##### date: "2020/02/20"
 
+## Presentation
+
+##### you can see the presentation here:
+##### https://frncscm.github.io/coursera_data_product/Presentation.html#(1)
+
 ## run server.R
 
 ##### Just open the server.R and ui.R files in your RStudio and press
